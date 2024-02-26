@@ -1,6 +1,6 @@
 /*
-Author: Maria Cruz
-Date: Current Date
+Author: Suzanne Lucas
+Date: 02/26/2024
 File Name: styles.css
 */
 
@@ -58,9 +58,40 @@ main a {
 }
 
 /* Orange */
+orange-hex {
+    background-color: #ff8000;
+}
 
+orange-rgb {
+    background-color: rgb(255, 128, 0);
+}
+
+orange-hsl {
+    background-color: hsl(30, 100%, 50%);
+}
 
 /* Purple */
+purple-hex {
+    background-color: #bf00ff;
+}
 
+purple-rgb {
+    background-color: rgb(191, 0, 255);
+}
+
+purple-hsl {
+    background-color: hsl(285, 100%, 50%);
+}
 
 /* Green */
+green-hex {
+    background-color: #00ff80;
+}
+
+green-rgb {
+    background-color: rgb(0, 255, 128);
+}
+
+green-hsl {
+    background-color: hsl(150, 100%, 50%);
+}

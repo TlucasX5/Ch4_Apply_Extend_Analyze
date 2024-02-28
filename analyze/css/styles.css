@@ -49,6 +49,7 @@ nav li a {
     display: block; 
     color: #e3eaf8; 
     padding: 0.5em 2em; 
+    text-decoration: none;
 }
 
 
@@ -59,8 +60,16 @@ main {
     overflow: auto;
 }
 
+main a
+{
+ font-weight: bold;
+ color: #47476b;
+ text-decoration: none;
+ font-style: italic;
+}
+
 main p {
-    font-size: 1.25em;
+    font-size: 1.15em;
 }
 
 main h3 {
@@ -68,8 +77,9 @@ main h3 {
     font-size: 2em;
 }
 
+
 #css1, #css2, #css3 {
-    width: 40%;
+    width: 31%;
     float: left;
     padding: 0 1%;
 }
@@ -81,5 +91,5 @@ footer {
     color: #47476b;
     padding: 1% 0;
     border-top: 3px solid #47476b;
-    float: left;
+    clear: left;
 }
